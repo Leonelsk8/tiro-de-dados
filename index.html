@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header> 
+    <h1 class="text-center">Simulación de tiro de dados</h1>
+    <div class="buttonsDiv">
+      <button onclick="dicesOn()">Tirar dados</button>
+    </div>
+  </header>
+  <main>
+    <section class="sectionBg" id="bgsectt">
+      <img src="./assets/bg.png" class="imgPort" alt="fondo de vaso y dados">
+    </section>
+    <section class="d-none sectionBg" id="vasoSect">
+      <img src="./assets/vaso.png" class="imgvaso" alt="vaso">
+    </section>
+    <section class="d-none" id="dicesId">
+      <div class="cube" id="cubeOne">
+        <div class="face front">
+          <div class="six">
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face back">
+          <div class="one">
+            <div>
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face right">
+          <div class="five">
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face left">
+          <div class="tree">
+            <div class="text-end">
+              <p>⚫</p>
+            </div>
+            <div class="text-center">
+              <p>⚫</p>
+            </div>
+            <div class="text-start">
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face top">
+          <div class="for">
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face bottom">
+          <div class="two">
+            <div class="text-end">
+              <p>⚫</p>
+            </div>
+            <div class="text-start">
+              <p>⚫</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cube" id="cubeTwo">
+        <div class="face front">
+          <div class="six">
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face back">
+          <div class="one">
+            <div>
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face right">
+          <div class="five">
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face left">
+          <div class="tree">
+            <div class="text-end">
+              <p>⚫</p>
+            </div>
+            <div class="text-center">
+              <p>⚫</p>
+            </div>
+            <div class="text-start">
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face top">
+          <div class="for">
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+            <div>
+              <p>⚫</p>
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+        <div class="face bottom">
+          <div class="two">
+            <div class="text-end">
+              <p>⚫</p>
+            </div>
+            <div class="text-start">
+              <p>⚫</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resultSum">
+
+    </section>
+    <audio id="sound" src="./assets/sound.mp3"></audio>
+  </main>
+  <footer>
+    <h3>- copyright &copy; - Gomez Leonel Agustin -</h3>
+  </footer>
+  <script src="./app/app.js"></script>
+</body>
+</html>
